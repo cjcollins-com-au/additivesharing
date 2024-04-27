@@ -9,6 +9,8 @@ Install websockets: $pip3 install websockets
 
 (Install pip first if you don't already have it, on Linux this would be: $sudo apt install python3-pip)
 
+Download all files to the same directory.
+
 ## Usage
 
 Run in terminal window on Windows / Linux / Mac.  Run in two separate terminal sessions, one for alice.py and one for bob.py. 
@@ -20,6 +22,9 @@ i.e:
 (in terminal 2) $ python3 bob.py
 
 These will then prompt for the respective values and proceed through the calculations, communicating via sockets to exchange any required values.
+
+*Note - sssr.py is required and should be downloaded but is not run directly by the user; this is required by the Alice and Bob programs 
+and provides the required socket/communication functions*
 
 ### Configuration Options
 *These options are set in code - the variables involved are clearly indicated and located near the top of each source code file)*
