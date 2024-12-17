@@ -33,9 +33,8 @@ and provides the required socket/communication functions*
 * random_max - the maximum integer value to use for generating random values.  Smaller values are more readable on screen.
 
 
-## Disclaimer
+## Notes
 
-This is based on process/formula provided as part of postgrad study; the end result is not hidden (in fact this is the desirable outcome) however
-this means that the other parties orginal value can easily be inferred when there are only 2 parties.  This may be intended to scale up to a greater 
-number of shares (a 2 party computation with Alice and Bob alone is perhaps naive) without parties being able to make that inference, but my 
-maths skill isn't up to getting that to happen.
+In this scenario with 2 parties, the original value from the other party can be inferred (although not directly exchanged) as the end result is 
+known (...this is in fact the desired outcome) and each party knows their own value.   This won't happen with a 3 party setup but the 2 party 
+setup here is a bit more understandable.
