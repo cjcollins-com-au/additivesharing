@@ -9,7 +9,7 @@ Install websockets: $pip3 install websockets
 
 (Install pip first if you don't already have it, on Linux this would be: $sudo apt install python3-pip)
 
-Download all files to the same directory.
+Download all three files to the same directory.
 
 ## Usage
 
